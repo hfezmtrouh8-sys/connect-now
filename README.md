@@ -1,1 +1,16 @@
-# connect-now
+name: connect_now
+description: Connect Now  Fuel Station
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.0.0
+
+flutter:
+  uses-material-design: true
